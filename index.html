@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CPanel Dashboard Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="floating-background-image"><img src="./assets/images/dash.png" alt="Main Logo"></div>
+    <header class="header">
+        <nav class="nav container">
+            <a href="index.html" class="logo">cpanel</a>
+            <div class="nav-mobile">
+                <ul class="list">
+                    <li class="list-item"><a href="#" class="list-link current">home</a></li>
+                    <li class="list-item"><a href="#" class="list-link">servers</a></li>
+                    <li class="list-item"><a href="#" class="list-link">proxies</a></li>
+                    <li class="list-item dropdown">
+                        <button class="list-link dropdown-button place-items-center">settings <i class="ri-arrow-drop-right-line"></i></button>
+                        <ul class="list dropdown-menu">
+                            <li class="list-item"><a href="#" class="list-link">servers</a></li>
+                            <li class="list-item"><a href="#" class="list-link">servers</a></li>
+                            <li class="list-item"><a href="#" class="list-link">servers</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <button class="icon-button menu-toggle-button menu-toggle-close place-items-center"><i class="ri-close-line"></i></button>
+            </div>
+            <div class="align-right">
+                <button class="icon-button menu-toggle-button menu-toggle-open place-items-center"><i class="ri-function-line"></i></button>
+                <button class="icon-button theme-toggle-button place-items-center">
+                    <i class="ri-sun-line theme-light-icon"></i>
+                    <i class="ri-moon-line theme-dark-icon"></i>
+                </button>
+                <button class="icon-button place-items-center"><i class="ri-user-3-line"></i></button>
+            </div>
+        </nav>
+    </header>
+    <section class="welcome-message">
+        <div class="container">
+            <h2 class="title independent-title">control panel</h2>
+            <div class="card">
+                <header class="card-header">
+                    <small>getting started</small>
+                    <h2 class="title">welcome back, admin</h2>
+                </header>
+                <div class="card-body display-grid">
+                    <div class="card-image"><img src="./assets/images/server.svg" alt="Server Image"></div>
+                    <div class="card-information">
+                        <h1 class="title main-title">affordable, powerful and reliable servers</h1>
+                        <p class="card-description">the best lag-free experience powered by NVMe SSDs and modern CPUs. managed by an experienced team who is always here for you when you need them.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="management-area">
+        <div class="container management-area-container display-grid">
+            <div class="card">
+                <header class="card-header">
+                    <h2 class="title">quick actions</h2>
+                    <small>access frequently visited places quicker</small>
+                </header>
+                <div class="card-body">
+                    <a href="#" class="card-body-link"><i class="ri-server-line"></i>manage server</a>
+                    <a href="#" class="card-body-link"><i class="ri-shield-line"></i>security settings</a>
+                    <a href="#" class="card-body-link"><i class="ri-account-box-line"></i>manage account</a>
+                    <a href="#" class="card-body-link"><i class="ri-bank-card-line"></i>subscription</a>
+                </div>
+            </div>
+            <div class="card-group display-grid">
+                <div class="card border-green">
+                    <div>
+                        <h2 class="title">want more power?</h2>
+                        <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum.</p>
+                    </div>
+                    <button class="list-link">upgrade now</button>
+                </div>
+                <div class="card border-yellow">
+                    <h2 class="title">want more power?</h2>
+                    <button class="list-link">upgrade now</button>
+                </div>
+                <div class="card border-orange">
+                    <h2 class="title">want more power?</h2>
+                    <button class="list-link">upgrade now</button>
+                </div>
+                <div class="card border-pink">
+                    <div>
+                        <h2 class="title">want more power?</h2>
+                        <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum.</p>
+                    </div>
+                    <button class="list-link">upgrade now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container footer-container">
+            <span class="copyright-information">&copy; 2022 cPanel. all rights reserved.</span>
+            <ul class="list">
+                <li class="list-item"><a href="#" class="list-link">terms and conditions</a></li>
+                <li class="list-item"><a href="#" class="list-link">privacy policy</a></li>
+                <li class="list-item"><a href="#" class="list-link">refund policy</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="./assets/js/script.js"></script>    
+</body>
+</html>
